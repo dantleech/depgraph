@@ -1,0 +1,45 @@
+{
+    "name": "dantleech/depgraph",
+    "description": "Graph ur dependencies",
+    "license": "MIT",
+    "type": "composer-plugin",
+    "minimum-stability":"dev",
+    "prefer-stable":true,
+    "authors": [
+        {
+            "name": "Daniel Leech",
+            "email": "daniel@dantleech.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "composer-plugin-api": "^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "^2.0",
+        "phpunit/phpunit": "^13.2",
+        "carthage-software/mago": "^1.42",
+        "phpactor/test-utils": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DTL\\Depgraph\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DTL\\Depgraph\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "class": "DTL\\Depgraph\\DepgraphPlugin",
+        "branch-alias": {
+            "dev-master": "0.5.x-dev"
+        }
+    },
+    "scripts": {
+        "integrate": [
+            "vendor/bin/phpunit"
+        ]
+    }
+}
