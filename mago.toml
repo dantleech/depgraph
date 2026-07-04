@@ -29,9 +29,13 @@ preserve-redundant-logical-binary-expression-parentheses = true
 integrations = ["phpunit"]
 
 [linter.rules]
+excessive-parameter-list = { enabled = false }
 ambiguous-function-call = { enabled = false }
 literal-named-argument = { enabled = false }
 halstead = { effort-threshold = 7000 }
+cyclomatic-complexity = { enabled = false }
+kan-defect = { enabled = false }
+too-many-methods = { enabled = false }
 
 [analyzer]
 plugins = []

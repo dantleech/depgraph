@@ -1,5 +1,5 @@
 digraph {
-"acme/one"
-"acme/two"
-"acme/one" -> "acme/two"
+"acme/one" [label=<acme/one +0<BR/>@ 1.0.0>]
+"acme/two" [label=<acme/two +1<BR/>@ 2.0.0>]
+"acme/one" -> "acme/two" [label="^2.0.0", style="solid", penwidth=1]
 }

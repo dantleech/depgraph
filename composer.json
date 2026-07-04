@@ -2,7 +2,7 @@
     "name": "dantleech/depgraph",
     "description": "Graph ur dependencies",
     "license": "MIT",
-    "type": "composer-plugin",
+    "type": "library",
     "minimum-stability":"dev",
     "prefer-stable":true,
     "authors": [
@@ -12,14 +12,16 @@
         }
     ],
     "require": {
-        "php": "^8.3",
-        "composer-plugin-api": "^2.0"
+        "php": "^8.4",
+        "php-standard-library/type": "^6.2",
+        "composer/composer": "^2.9",
+        "symfony/console": "^8.1",
+        "psr/log": "^3.0"
     },
     "require-dev": {
-        "composer/composer": "^2.0",
+        "symfony/var-dumper": "^7.1",
         "phpunit/phpunit": "^13.2",
-        "carthage-software/mago": "^1.42",
-        "phpactor/test-utils": "^2.0"
+        "carthage-software/mago": "^1.42"
     },
     "autoload": {
         "psr-4": {

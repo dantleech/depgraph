@@ -1,0 +1,8 @@
+{
+    "require": {
+        "psr/container": "^2.0"
+    },
+    "require-dev": {
+        "phpactor/container": "^3.0"
+    }
+}

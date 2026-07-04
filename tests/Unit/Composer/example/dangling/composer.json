@@ -1,0 +1,18 @@
+{
+    "name": "daniel/dangling",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Daniel\\Simple\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Leech",
+            "email": "daniel@dantleech.com"
+        }
+    ]
+}

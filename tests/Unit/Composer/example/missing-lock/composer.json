@@ -1,0 +1,20 @@
+{
+    "name": "daniel/simple",
+    "require": {
+        "phpactor/container": "^3.0"
+    },
+    "require-dev": {
+        "psr/log": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Daniel\\Simple\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Leech",
+            "email": "daniel@dantleech.com"
+        }
+    ]
+}
