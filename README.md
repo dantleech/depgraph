@@ -43,7 +43,7 @@ composer require --dev dantleech/depgraph
 Features
 --------
 
-- Limit to production or dependency packages (`--no-dev` `--no-prod`).
+- Limit to production or development packages (`--no-dev` `--no-prod`).
 - Limit depth of graph (`--max-depth=2`)
 - Highlight packages with CVEs (`--audit`)
 - Highlight outdated packages (`--outdated`)
