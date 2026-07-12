@@ -27,11 +27,17 @@ Installation
 
 You could install it as follows:
 
-```
+```bash
 git clone git@github.com:dantleech/depgraph
 cd depgraph
 composer install
 ln -s $(pwd)/bin/depgraph $HOME/.local/bin/depgraph
+```
+
+You could also include it as a project dependency if you want:
+
+```bash
+composer require --dev dantleech/depgraph
 ```
 
 Features
@@ -70,4 +76,4 @@ depgraph path/to/my/composer.json --audit --outdated | dot -Tpng -ograph.png
 
 ---
 
-🩸 _made by with blood and tears by **you** 🫵_
+🩸 _made with blood and tears by **you** 🫵_
