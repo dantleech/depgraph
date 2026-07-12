@@ -23,5 +23,5 @@ $output = new ConsoleOutput();
 $input = new ArgvInput();
 
 $application->addCommand(new DepgraphCommand(DepgraphFactory::default(offline: false, output: $output->getErrorOutput())));
-$application->setDefaultCommand('depgraph');
+$application->setDefaultCommand('depgraph', true);
 $application->run($input, $output);
