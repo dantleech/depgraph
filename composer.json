@@ -1,6 +1,6 @@
 {
     "name": "dantleech/depgraph",
-    "description": "Graph ur dependencies",
+    "description": "Comprehensable Composer PHP dependency diagrams for your small business or enterprise.",
     "license": "MIT",
     "type": "library",
     "minimum-stability":"dev",
@@ -32,16 +32,5 @@
         "psr-4": {
             "DTL\\Depgraph\\Tests\\": "tests/"
         }
-    },
-    "extra": {
-        "class": "DTL\\Depgraph\\DepgraphPlugin",
-        "branch-alias": {
-            "dev-master": "0.5.x-dev"
-        }
-    },
-    "scripts": {
-        "integrate": [
-            "vendor/bin/phpunit"
-        ]
     }
 }

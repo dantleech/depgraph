@@ -45,6 +45,10 @@ Features
 Usage
 -----
 
+> [!WARNING]
+> Depgraph generates [Graphviz](https://graphviz.org/) Dot files. You will need to install the Graphviz
+> on your operating system to access the `dot` binary.
+
 The `depgraph` script will output a Graphviz Dot file to `stdout`. You can
 pipe it directly to the `dot` binary to generate a diagram:
 
